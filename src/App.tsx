@@ -1,5 +1,5 @@
 import React from 'react';
-import ThreeBackground from './components/ThreeBackground';
+import MovingDots from './components/MovingDots';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="bg-black min-h-screen">
-      <ThreeBackground />
+      <MovingDots />
       <Navigation />
       <Hero />
       <About />
